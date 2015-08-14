@@ -1,0 +1,15 @@
+extends layout
+
+block content
+
+	toast
+
+	div#header
+		| beaver platform frontend
+
+	div#body
+		div(ui-view)
+
+block tail
+	script(type='text/javascript') window.require = !{JSON.stringify(require_config)};
+	script(type='text/javascript', src=assetUrl('/bower_components/requirejs/require.js'), data-main="main")

@@ -1,0 +1,32 @@
+{
+  "name": "beaver-frontend",
+  "version": "0.0.1",
+  "authors": [
+    "Sebastien Carlier <s.carlier@epixode.fr>"
+  ],
+  "description": "A frontend for the Bebras Platform.",
+  "scripts": {
+    "start": "supervisor app/index.js"
+  },
+  "dependencies": {
+    "async": "~1",
+    "body-parser": "~1.13",
+    "errorhandler": "~1.4",
+    "express": "~4.13",
+    "grunt": "~0.4",
+    "jade": "~1.11",
+    "lodash": "~3.10",
+    "morgan": "~1.6",
+    "reload": "~0.3",
+    "sqlite3": "~3.0",
+    "supervisor": "~0.7",
+    "yamljs": "~0.2"
+  },
+  "devDependencies": {
+    "chai": "~3.2",
+    "grunt-contrib-jshint": "~0.11",
+    "grunt-contrib-watch": "~0.6",
+    "grunt-mocha-test": "~0.12",
+    "supertest": "~1.0"
+  }
+}

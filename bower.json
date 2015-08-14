@@ -1,0 +1,39 @@
+{
+  "name": "beaver-frontend",
+  "version": "0.0.1",
+  "authors": [
+    "Sebastien Carlier <s.carlier@epixode.fr>"
+  ],
+  "description": "A frontend for the Bebras Platform.",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "assets",
+    "dist"
+  ],
+  "dependencies": {
+    "angular": "~1.4",
+    "angular-bootstrap": "~0.13.0",
+    "angular-toggle-switch": "~1.3",
+    "angular-ui-router": "~0.2",
+    "bootstrap": "~3.3",
+    "font-awesome": "~4",
+    "requirejs": "~2",
+    "jquery": "~2.1",
+    "jquery1": "jquery#1.11.3",
+    "lodash": "~3.8",
+    "ngtoast": "~1.5",
+    "ngstorage": "~0.3.7",
+    "json3": "~3.3.2",
+    "jquery-ui": "~1.11.4",
+    "raphael": "~2.1.4",
+    "jqueryui": "~1.11.4",
+    "beav": "../beav",
+    "miniPlatform": "../mini-platform",
+    "platform-pr": "../platform-pr",
+    "jquery-postmessage": "git@github.com:miketaylr/jquery-postmessage.git",
+    "jquery-deparam": "~0.4.2",
+    "beaver-task": "../beaver-task",
+    "display-helper": "../display-helper"
+  }
+}

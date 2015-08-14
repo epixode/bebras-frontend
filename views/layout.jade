@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+
+	meta(charset=utf-8)
+	title= title
+	link(rel='stylesheet', href=assetUrl('/style.css'))
+	meta(name='viewport', content='width=device-width, initial-scale=1.0')
+	style .ng-cloak { display: none !important; }
+
+	body.ng-cloak
+
+		block content
+
+		if isDev
+			script(src='/reload/reload.js')
+
+		block tail

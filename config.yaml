@@ -1,0 +1,6 @@
+---
+env: development
+development:
+  listen: 3000
+  baseUrl: http://castor.home.epixode.fr:3000
+  isDev: true
